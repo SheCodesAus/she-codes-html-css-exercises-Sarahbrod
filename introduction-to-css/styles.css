@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -11,11 +13,15 @@ body {
 
 header {
     text-align: center;
-    background-color: #6b469a;
-    padding: 10px;
+    background-color: #2c2c2c;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial;    
+    font-size: 20px;
 }
 
 h1 {
+    font-family: 'Rock 3D', cursive;
     font-size: 2.5rem;
     line-height: 2.5rem;;
     color: #fff;
@@ -23,20 +29,40 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    font-family: 'Rock 3D', cursive;
     line-height: 3rem;
     color: #fff;
 }
 
-nav {
+/*nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+}
+*/
+
+nav a{
+    display: block;
+    color: rgb(243, 119, 119);
+}
+
+.nav-link {
+    color: black;
+}
+
+nav a.nav-link {
+    color: green;
+}
+
+nav a.nav-link#link-1 {
+    color: purple;
 }
 
 a:hover {
@@ -49,18 +75,28 @@ div {
     padding: 10px;
 }
 
-img {
-    width: 100%;
-    height: 60vh;
+img{
+    width: 300px;
+    height: 200px;
+}
+
+img#homepage-image {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #2c2c2c;
     object-fit: cover;
     object-position: bottom;
 }
 
 footer {
     text-align: center;
-    background-color: #6b469a;
+    background-color: #2c2c2c;
     padding: 10px;
     color: #fff;
 }
 
-/* Your code here */
+
+html {font-family: 'Raleway', sans-serif;
+    background-color: #fff;}
+
+
