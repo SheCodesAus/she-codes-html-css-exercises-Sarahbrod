@@ -1,0 +1,27 @@
+* {
+    margin: 5px;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    height: 100%;
+}
+
+.demo-div {
+    flex: 0 27%;
+    background-color: white;
+    justify-content: stretch;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    text-align:center;
+
+  }

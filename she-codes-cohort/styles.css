@@ -7,27 +7,38 @@ body {
 }
 header {
     background-color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border-bottom: 1px solid #E9E6E6;
-    height: 40px;
-    padding: 0 5px;
+    height:24px;
+    padding: 5px 5px;
 }
+
 nav, h1{
     display: inline; 
 }
+
 nav{
     float: right;
-    height: 100%;
+    
 }
+    
+a {
+    color: rgb(56, 56, 56);
+    padding: 4px;
+    text-transform: uppercase;
+    
+}
+
 .selected{
     text-decoration: underline;
-    text-decoration-color: red;
-    color: red;
+    text-decoration-color: rgb(226, 74, 74);
+    color: rgb(226, 74, 74);
 }
 
 section{
     width: 100%;
     text-align: center;
+   
 }
 
 .card{
@@ -50,11 +61,31 @@ section{
 
 .card{
     display: inline-block;
+}
 
+.card h2{
+    font-size: 20px; 
+    display: inline-block;
+}
+
+.sub-card-heading {
+    font-size: 20px;
+    color: rgb(175, 175, 175);   
+}
+
+
+.card h3 {
+    font-size: 14px;
+    color: #C70039;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 12px;
 }
 
 a img{
-    height: 16px;
+    height: 24px;
     width:auto;
     display: inline;
     vertical-align:middle;
@@ -66,4 +97,15 @@ nav, h1{
 
 h1 {
     color:  #C70039;
+    font-size: 24px;
+}
+
+h2{
+    color: rgb(56, 56, 56);
+}
+
+footer{
+    background-color: white;
+    padding: 8px;
+    text-align: center;
 }

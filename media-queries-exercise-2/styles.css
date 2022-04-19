@@ -15,17 +15,22 @@ h2 {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #5e7992;
+    padding: 20px;
     color: #fff;
     font-size: 1rem;
+    text-align: center;
 }
 
 p {
+    font-size: 16px;
+    color: whitesmoke;
 }
 
 form {
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding: 24px;
 }
 
 label {
@@ -40,17 +45,37 @@ input {
 }
 
 .form-item {
+    padding: 16px;
 }
 
 button {
     background-color: #00d982;
     border: none;
     color: #fff;
+    text-align: center;
+    padding: 8px 160px 8px 160px;
+    
 }
 
 input,
 button {
     font-size: 1rem;
     border-radius: 2px;
+    text-align: center;
 }
 
+@media (min-width: 600px) {
+    .form-item{
+    
+    }
+    
+}
+@media (min-width: 900px) {
+    .form-item{
+    
+    }
+    button{
+        padding: 16px 360px 16px 360px;
+
+    }
+}

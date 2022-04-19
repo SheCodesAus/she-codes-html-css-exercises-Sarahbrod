@@ -14,19 +14,49 @@ div {
 }
 
 #div-1 {
-    background-color: #9370db;
+        background-color: #9370db;
 }
 
 #div-2 {
-    background-color: #8fbc8b;
+        background-color: #239666;
 }
 
 #div-3 {
-    background-color: #6495ed;
+        background-color: #70db94;
 }
 
 #div-4 {
-    background-color: #f5deb3;
+        background-color: #d9db70;
 }
 
-/*** Your code here ***/
+@media (max-width: 900px) {
+    div {
+        display: inline-block;
+        width: 20%;
+        font-size: 32px;
+    }
+    #div-1,
+    #div-2,
+    #div-3,
+    #div-4 {
+        background-color: #9370db;
+   }
+} 
+
+@media (max-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+        font-size: 24px;
+    }
+    #div-1
+    #div-2{
+        background-color: #9370db;
+    }
+    #div-3,
+    #div-4 {
+        background-color: #28beb7;
+    }
+}
+
+   
